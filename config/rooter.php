@@ -1,7 +1,7 @@
 <?php
 $page=null;
 switch(URI){
-	case '/cmsPHP/':
+	case '/':
 		$page = "/controller/index.php";
 		break;
 	
