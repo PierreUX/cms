@@ -1,10 +1,8 @@
 <?php
-$url = $_GET[''];
-switch($url){
-	case '/':
+$page=null;
+switch(URI){
+	case '/cmsPHP/':
 		$page = "/controller/index.php";
 		break;
-	case '/maPage':
-		$page = "/controller/maPage.php";
-		break;
+	
 }
